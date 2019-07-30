@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-68,0,0,2,-54"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="720" height="30"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="249" max="32767" attributes="0"/>
+                  <Component id="NOMBRE" min="-2" pref="157" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="257" max="-2" attributes="0"/>
+                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+              <Component id="NOMBRE" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/btnregresar.png"/>
+            </Property>
+            <Property name="borderPainted" type="boolean" value="false"/>
+            <Property name="contentAreaFilled" type="boolean" value="false"/>
+            <Property name="focusPainted" type="boolean" value="false"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="NOMBRE">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="CONSTRUCCION"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="fotohistoria">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="370" y="160" width="320" height="180"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="infoconstruccion">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="20" y="110" width="300" height="300"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="info">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="13" style="0"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="La construcci&#xf3;n del ferrocarril, tambi&#xe9;n &#xa;conocido como Ferrocarril del Sur, se &#xa;inici&#xf3; en 1872, durante la segunda presi&#xa;dencia de Gabriel Garc&#xed;a Moreno. La pri&#xa;mera locomotora rod&#xf3; el 18 de julio de &#xa;1873 desde la estaci&#xf3;n de Yaguachi; en el&#xa;a&#xf1;o siguiente, el 1 de mayo, empez&#xf3; a fun&#xa;cionar el primer servicio regular, entre &#xa;Yaguachi y Milagro, ambas poblaciones de &#xa;la provincia del Guayas. Despu&#xe9;s de a&#xf1;os &#xa;de pocos avances, la construcci&#xf3;n se &#xa;aceler&#xf3; cuando el general Eloy Alfaro lle&#xa;g&#xf3; a la presidencia en 1895.&#xa;&#xa;Este presidente se propuso retomar y llevar&#xa;a t&#xe9;rmino el viejo proyecto del ferroca&#xa;rril del puerto de Guayaquil a Quito. &#xa;Pero hab&#xed;a una tenaz campa&#xf1;a de oposici&#xf3;n &#xa;protagonizada tanto por conservadores como &#xa;por liberales. Mucha gente de aquel tiempo &#xa;pens&#xf3; que los Andes no se podr&#xed;an conquis&#xa;tar por medio del ferrocarril.&#xa;&#xa;El 17 de junio de 1897, el gobierno firm&#xf3; &#xa;un acuerdo sobre la construcci&#xf3;n del llamado&#xa;&quot;ferrocarril m&#xe1;s dif&#xed;cil del mundo&quot; con los &#xa;contratistas norteamericanos Archer Harman &#xa;y Edward Morely. Al fin del a&#xf1;o, se conformo &#xa;en Nueva Jersey la Guayaquil y Quito Railway &#xa;Company y comenz&#xf3; la construcci&#xf3;n en el a&#xf1;o &#xa;1899. Amenazaban el progreso de los trabajos &#xa;la frecuente actividad s&#xed;smica, las fuertes &#xa;precipitaciones que a menudo provocaban inun&#xa;daciones, las enfermedades o las picaduras &#xa;de serpientes. Ante semejantes desgracias, &#xa;los obreros desertaban o paralizaban los &#xa;trabajos en demanda de mejores condiciones. &#xa;Cuatro mil trabajadores jamaicanos partici&#xa;paron en la construcci&#xf3;n del ferrocarril. &#xa;Pero los jamaicanos eran cruelmente afectados &#xa;por la altura, las enfermedades y pestes. &#xa;El propio hermano de Archer Harman, el mayor &#xa;John Harman, ingeniero jefe de la obra, y su &#xa;ayudante George Davis, murieron v&#xed;ctimas de &#xa;las enfermedades. Los carriles llegaron final&#xa;mente a un enorme obst&#xe1;culo: una pared de roca &#xa;casi vertical llamada &quot;La Nariz del Diablo&quot;. &#xa;Muchas vidas se perdieron en la construcci&#xf3;n &#xa;de lo que se considera como una obra maestra &#xa;de ingenier&#xed;a: un zig-zag cavado en la roca, &#xa;que permite al tren, avanzando y retrocedien&#xa;do sucesivamente, alcanzar la altura necesaria &#xa;hasta Alaus&#xed;.&#xa;Se dice que Harman, el ingeniero constructor &#xa;de la l&#xed;nea, se detuvo maravillado ante la for&#xa;midable masa p&#xe9;trea, ante la que pronunci&#xf3; las &#xa;palabras que hab&#xed;an de quedar grabadas en la &#xa;historia de este ferrocarril: &quot;En la Nariz del &#xa;Diablo quedar&#xe1; inmortalizado mi nombre&quot;. &#xa;Sin embargo, a lo largo de las obras de este &#xa;tramo, se multiplicaron los problemas de todo &#xa;tipo. Durante una visita del general Alfaro, el &#xa;ingeniero le expuso las tremendas dificultades &#xa;que supon&#xed;a la construcci&#xf3;n de este tramo del &#xa;ferrocarril. Alfaro, hombre met&#xf3;dico y fr&#xed;o, le &#xa;contest&#xf3;: &quot;Primero tomaremos un whisky, despu&#xe9;s, &#xa;venceremos al diablo&quot;.&#xa;&#x200b;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btnver">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Imagenes/btnverNULL.png"/>
+        </Property>
+        <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="contentAreaFilled" type="boolean" value="false"/>
+        <Property name="focusPainted" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
+        <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Imagenes/btnver.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnverActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="20" y="40" width="50" height="40"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="fondo">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="30" width="720" height="410"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>
